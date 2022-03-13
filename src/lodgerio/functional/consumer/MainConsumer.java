@@ -15,5 +15,8 @@ public class MainConsumer {
 
         Consumer<String> printItem = n -> System.out.println(n);
         students.forEach(printItem);
+        
+        // Or simply
+        students.forEach(s -> System.out.println(s));
     }
 }
