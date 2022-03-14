@@ -6,7 +6,7 @@ The Java BinaryOperator interface is a functional interface that represents an o
 ## Consumer
 The Java Consumer interface is a functional interface that represents an function that consumes a value without returning any value.
 
-## Function 
+## Function<T,R> 
 The Java Function interface represents a function (method) that takes a single parameter and returns a single value.
 
 ## Java Streams
