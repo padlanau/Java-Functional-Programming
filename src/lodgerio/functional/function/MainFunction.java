@@ -12,6 +12,10 @@ public class MainFunction {
         students.add("Molly");
         students.add("Tony");
 
+        /*
+        Function<T,R> represents a function that takes a single parameter(T) and returns a single value(R)
+        */
+        
         Function<Integer, Integer> doubly = n -> n * n;
         System.out.println(doubly.apply(8));
 
